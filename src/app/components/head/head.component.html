@@ -1,0 +1,8 @@
+<div class="marcador">
+
+<div class="Colocartropas" *ngFor="let pj of pjs;let x=index"  [ngStyle]="{'background-color':x==0? 'red':'white'}" >
+ <div class="celda">
+    <p>  {{pj.Id}}</p>
+</div>
+</div>
+</div>

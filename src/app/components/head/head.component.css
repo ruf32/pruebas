@@ -1,0 +1,23 @@
+.colocartropas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 100%;
+    width: 100%;
+   
+}
+.marcador{
+   display: flex;
+}
+.celda{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #7a7979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}

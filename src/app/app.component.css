@@ -1,0 +1,25 @@
+.container{
+  margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablero{
+    flex: 1;
+  padding: 20px; 
+}
+.info{
+
+    flex: 1;
+    padding: 20px;
+}
+.cabezera{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+  border: 2px solid brown;
+}

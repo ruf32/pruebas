@@ -1,0 +1,15 @@
+<div class=" titulo">
+  <p>Informacion</p>
+</div>
+<div *ngIf="personajeSeleccionado">
+    <h2>Datos del personaje</h2>
+    <p>ID: {{ personajeSeleccionado.Id }}</p>
+    <p>Front: {{ personajeSeleccionado.idpj }}</p>
+    <p>Player: {{ personajeSeleccionado.player }}</p>
+    <p>Velocidad: {{ personajeSeleccionado.vel }}</p>
+    <p>Movimiento: {{ personajeSeleccionado.mov }}</p>
+    <p>Ataque: {{ personajeSeleccionado.ata }}</p>
+    <p>Defensa: {{ personajeSeleccionado.def }}</p>
+    <p>Puntos de Vida: {{ personajeSeleccionado.pv }}</p>
+  </div>
+  

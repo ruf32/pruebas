@@ -1,0 +1,9 @@
+<div class="tablero">
+    <div class="fila" *ngFor="let fila of tablero; let i = index">
+      <div class="celda"*ngFor="let celda of fila; let j = index" (click)="marcarCelda(i, j) ">
+        <img [src]=getImagenPath(celda.back) [alt]="'Imagen ' + celda.id" class="imagen-celda">
+        <img *ngIf="celda.id !== 0" [src]="getPJImagePath(celda.id)" [alt]="'Personaje ' + celda.id" class="imagen-personaje">
+      </div>
+    </div>
+  </div>
+  
